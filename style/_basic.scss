@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background: $very-dark-blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: $white;
+  font-family: "Overpass", sans-serif;
+  font-size: $font-size-p;
+  font-weight: $font-weight-400;
+}
+section {
+  border-radius: 15px;
+  padding: 25px;
+  background-image: linear-gradient($dark-blue, $dark-blue-70);
+  max-width: 350px;
+}
+h1 {
+  font-size: $font-size-h1;
+  font-weight: $font-weight-700;
+}
+p {
+  color: $light-grey;
+  line-height: 22px;
+}
+:hover {
+  cursor: pointer;
+}

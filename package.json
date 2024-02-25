@@ -1,0 +1,16 @@
+{
+  "name": "interactive-rating",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch style/style.scss style/main.css & live-server",
+    "build:dev": "sass --watch style/style.scss style/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.62.1"
+  }
+}

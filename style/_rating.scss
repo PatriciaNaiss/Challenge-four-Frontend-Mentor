@@ -1,0 +1,54 @@
+#rating {
+  display: block;
+}
+.tile::before {
+  content: url("/images/icon-star.svg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: $medium-grey;
+}
+.btn-rating--box{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  justify-content: space-between;
+  list-style: none;
+  margin: 20px 0;
+}
+.btn-rating{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height:50px;
+  width: 50px;
+  background: $medium-grey;
+  color: $light-grey;
+  transition: 0.4s;
+  &:hover, &:active, &:visited {
+    background: $orange;
+    color: $white;
+  }
+  &:focus {
+    background: $light-grey;
+  }
+}
+.btn-submit{
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+  color: $white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  background: $orange;
+  transition: 0.4s;
+  &:hover {
+    background: $white;
+    color: $orange;
+  }
+}
